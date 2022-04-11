@@ -7,8 +7,6 @@
 
 <script>
     export default {
-        name: 'IndexPage',
-
         middleware: 'email-verified',
     };
 </script>

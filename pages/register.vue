@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1 class="text-5xl text-center">Register</h1>
-        <form type="post" class="mt-10 max-w-xs mx-auto" @submit.prevent="register()">
+        <h1 class="text-center text-5xl">Register</h1>
+        <form type="post" class="mx-auto mt-10 max-w-xs" @submit.prevent="register()">
             <div>
                 <label>Name</label>
                 <input v-model="params.name" type="text" class="form-input" />
@@ -23,8 +23,6 @@
 
 <script>
     export default {
-        name: 'RegisterPage',
-
         auth: 'guest',
 
         data() {

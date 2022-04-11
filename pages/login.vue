@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1 class="text-5xl text-center">Login</h1>
-        <form type="post" class="mt-10 max-w-xs mx-auto" @submit.prevent="login()">
+        <h1 class="text-center text-5xl">Login</h1>
+        <form type="post" class="mx-auto mt-10 max-w-xs" @submit.prevent="login()">
             <div>
                 <label>Email</label>
                 <input v-model="params.email" type="text" class="form-input" />
@@ -20,8 +20,6 @@
 
 <script>
     export default {
-        name: 'LoginPage',
-
         auth: 'guest',
 
         data() {

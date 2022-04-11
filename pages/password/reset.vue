@@ -19,8 +19,6 @@
 
 <script>
     export default {
-        name: 'ResetPasswordPage',
-
         validate({ query }) {
             return !!query.token;
         },

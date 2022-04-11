@@ -12,9 +12,7 @@ module.exports = {
     plugins: [],
     // add your custom rules here
     rules: {
-        'vue/max-len': [
-            'error',
-            { code: 120, tabWidth: 4, ignoreHTMLAttributeValues: true },
-        ],
+        'vue/max-len': ['error', { code: 120, tabWidth: 4, ignoreHTMLAttributeValues: true }],
+        'vue/multi-word-component-names': 0,
     },
-}
+};

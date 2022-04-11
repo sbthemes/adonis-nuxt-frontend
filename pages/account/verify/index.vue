@@ -9,8 +9,6 @@
 
 <script>
     export default {
-        name: 'AccountVerifyPage',
-
         auth: false,
 
         middleware({ $auth, redirect }) {

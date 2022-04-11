@@ -1,13 +1,11 @@
 <template>
-    <div class="flex items-center justify-center min-h-[100vh]">
+    <div class="flex min-h-[100vh] items-center justify-center">
         <div v-if="error">{{ error }}</div>
         <div v-else>Verifying...</div>
     </div>
 </template>
 <script>
     export default {
-        name: 'VerifyEmailAccept',
-
         auth: false,
 
         middleware({ $auth, redirect }) {
